@@ -127,11 +127,13 @@ removeFromOrder(key) {
       removeFromOrder={this.removeFromOrder}
         />
       }
-      <Inventory addFish={this.addFish}
+      <Inventory
+       addFish={this.addFish}
        fishes={this.state.fishes}
        updateFish={this.updateFish}
        removeFish={this.removeFish}
        loadSamples={this.loadSamples}
+       storeId={this.props.params.storeId}
        />
       </div>
       )
