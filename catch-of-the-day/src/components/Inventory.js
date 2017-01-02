@@ -122,7 +122,7 @@ class Inventory extends React.Component {
 // check if they are the owner of current store
 
 
-  if(this.state.uid  == this.state.owner) {
+  if(this.state.uid  === this.state.owner) {
     return (
       <div>
 
