@@ -2,6 +2,7 @@
   "name": "cotd",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://cewhite.github.io/solid-barnacle/",
   "devDependencies": {
     "autoprefixer-stylus": "0.10.0",
     "babel-eslint": "^7.1.1",
@@ -28,6 +29,7 @@
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
+
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/.eslintrc"
